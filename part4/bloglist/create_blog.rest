@@ -1,9 +1,10 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI2MTNlNDEyMWEwMWVlNjJjOWNlNDQ5ZTIiLCJpYXQiOjE2MzE1NTY0Mzd9.e478uMjiZ3wXfVAmpAyAeD3bIM3Uiw5ZW7CHGVZ1TVE
 
 {
-    "title": "Wait But Why",
-    "author": "Tim Urban",
-    "url": "https://waitbutwhy.com/",
-    "likes": 7
+    "title": "Musing on Markets",
+    "author": "Aswath Damodaran",
+    "url": "http://aswathdamodaran.blogspot.com/",
+    "likes": 69
 }
