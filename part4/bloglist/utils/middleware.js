@@ -41,6 +41,5 @@ module.exports = {
     errorHandler,
     requestLogger,
     unknownEndpoint,
-    tokenExtractor,
-    tokenValidator
+    tokenExtractor
 }
